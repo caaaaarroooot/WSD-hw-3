@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="OSS24_22200409@walab.handong.edu">
-  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.51">
+  <database-model serializer="dbm" dbms="MARIADB" family-id="MARIADB" format-version="4.53">
     <root id="1">
       <DefaultCasing>exact</DefaultCasing>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -785,53 +785,53 @@ OSS24_22200409|schema||OSS24_22200409||UPDATE|G</Grants>
     </table>
     <column id="241" parent="239" name="id">
       <AutoIncrement>19</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int(11)|0s</StoredType>
     </column>
     <column id="242" parent="239" name="name">
-      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="243" parent="239" name="relationship">
-      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="244" parent="239" name="phone">
-      <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
+      <StoredType>varchar(20)|0s</StoredType>
     </column>
     <column id="245" parent="239" name="email">
-      <DasType>varchar(50)|0s</DasType>
       <Position>5</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="246" parent="239" name="address">
-      <DasType>varchar(50)|0s</DasType>
       <Position>6</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="247" parent="239" name="birthday">
-      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="248" parent="239" name="regdate">
-      <DasType>timestamp|0s</DasType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>8</Position>
+      <StoredType>timestamp|0s</StoredType>
     </column>
     <column id="249" parent="239" name="cnt">
-      <DasType>int(11)|0s</DasType>
       <DefaultExpression>0</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>9</Position>
+      <StoredType>int(11)|0s</StoredType>
     </column>
     <column id="250" parent="239" name="photo">
-      <DasType>varchar(200)|0s</DasType>
       <Position>10</Position>
+      <StoredType>varchar(200)|0s</StoredType>
     </column>
     <index id="251" parent="239" name="PRIMARY">
       <ColNames>id</ColNames>
@@ -845,33 +845,33 @@ OSS24_22200409|schema||OSS24_22200409||UPDATE|G</Grants>
     </key>
     <column id="253" parent="240" name="id">
       <AutoIncrement>2</AutoIncrement>
-      <DasType>int(11)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
+      <StoredType>int(11)|0s</StoredType>
     </column>
     <column id="254" parent="240" name="lastname">
-      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="255" parent="240" name="firstname">
-      <DasType>varchar(50)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="256" parent="240" name="address">
-      <DasType>varchar(50)|0s</DasType>
       <Position>4</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="257" parent="240" name="city">
-      <DasType>varchar(50)|0s</DasType>
       <Position>5</Position>
+      <StoredType>varchar(50)|0s</StoredType>
     </column>
     <column id="258" parent="240" name="regdate">
-      <DasType>timestamp|0s</DasType>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>6</Position>
+      <StoredType>timestamp|0s</StoredType>
     </column>
     <index id="259" parent="240" name="PRIMARY">
       <ColNames>id</ColNames>
