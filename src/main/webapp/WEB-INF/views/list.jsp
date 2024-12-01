@@ -39,9 +39,9 @@
                 </tr>
                 </thead>
                 <tbody>
-                    <c:forEach items="${list}" var="u">
+                    <c:forEach items="${list}" var="u" varStatus="status">
                         <tr>
-                            <td>${u.id}</td>
+                            <td>${status.index + 1}</td>
                             <td>${u.country}</td>
                             <td>${u.birthyear}</td>
                             <td>${u.name}</td>
